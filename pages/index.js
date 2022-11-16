@@ -20,15 +20,15 @@ export default function Home() {
         <title>UNESCO WOrld Heritage Sites</title>
         <link rel='icon' href='https://whc.unesco.org/favicon.ico' />
       </Head>
-      <div className='dark dark:bg-gray-900'>
+      <div className='dark dark:bg-slate-900'>
         <Container>
           <header>
-            <div className='lg:flex lg:items-center lg:justify-between p-12'>
+            <div className='lg:flex lg:items-center lg:justify-between p-12 mb-10'>
               <div className='min-w-0 flex-1'>
                 {/* <h1 className='text-2xl font-bold leading-7 text-gray-400 sm:truncate sm:text-4xl sm:tracking-tight '>
                 Nearest world heritage sites {data && data.location}
               </h1> */}
-                <h1 class='text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600'>
+                <h1 class='text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600'>
                   World heritage sites near {data && data.location}
                 </h1>
               </div>
